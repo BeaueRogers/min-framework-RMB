@@ -1,8 +1,7 @@
-header {
+.mainHeader {
   background-color: rgb(215, 241, 240);
+  height: 100px;
 }
-
-
 
 .nav {
   width: 100%;
