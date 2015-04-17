@@ -1,17 +1,19 @@
 
 * {
-  border: solid red 1px;
+  border: dotted 1px;
+  border-color: solid
 }
 
 .c12 {
   width: 100%;
-  height: 110px;
+  height: 120px;
   background: RGB(214, 240,240);
 }
 
+
 .c10 {
   width: 100%;
-  height: 200px;
+  height: 170px;
   background: white;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -36,26 +38,99 @@
 
 .buttons * {
   border-radius: 60px;
-  height: 30px;
+  height: 25px;
+  color: white;
 }
 
 .blue {
-  background: RGB(117,203,209)
+  background: RGB(117,203,209);
 }
 
 .green {
-  background: RGB(140,183,45)
+  background: RGB(140,183,45);
 }
 
 .purple {
-  background: RGB(112,44,142)
+  background: RGB(112,44,142);
 }
 
 .pink {
-  background: RGB(234,21,140)
+  background: RGB(234,21,140);
 }
 
+.green-text img {
+  padding-top: 20px;
+  padding-left: 45px;
+}
 
+.bar .c12 {
+  height: 45px;
+  background: RGB(245, 203, 211);
+  position: relative;
+  z-index: 1;
+}
 
+.bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: RGB(42,7,27);
+  font-size: 20px;
+}
 
+.c12 .c1, .c12 .c2 {
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+div input {
+  border-radius: 25px;
+  background: white;
+  color: pink;
+ }
+
+::-webkit-input-placeholder {
+   color: pink;
+}
+
+.footer .c10 {
+  height: 650px;
+  background: white;
+  margin-top: -50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.footer {
+  height: 750px;
+  background: RGB(117, 203, 210);
+}
+
+.green-text {
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: RGB(139, 184, 43);
+  line-height: 140%;
+}
+
+.c1 img {
+  padding-left: 25px;
+}
+
+.c9 {
+  padding-left: 45px;
+  font-size: 18px;
+  color: RGB(117, 203, 209)
+}
+
+.dotted {
+  padding-top: 45px;
+}
+
+.tree {
+
+  padding-top: 100px;
+}
 
