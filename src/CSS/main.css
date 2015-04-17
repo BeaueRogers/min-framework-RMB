@@ -1,7 +1,7 @@
 
 * {
   border: dotted 1px;
-  border-color: solid
+  border-color: transparent;
 }
 
 .c12 {
@@ -130,7 +130,14 @@ div input {
 }
 
 .tree {
-
-  padding-top: 100px;
+  padding-top: 100px
 }
 
+.c6 {
+  padding-right: 20px;
+}
+
+.baby {
+  padding-top: 80px;
+  box-sizing: border-box;
+}
